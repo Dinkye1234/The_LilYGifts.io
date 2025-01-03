@@ -1,0 +1,167 @@
+/* Цэс
+#navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+  #navbar ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  #navbar ul li {
+    margin-top: 25px;
+  }
+  #navbar ul li:hover{
+    margin-top: 25px;
+  }
+
+  .showcase .container{
+    max-width: 100px;
+    max-height: 100px;
+    display: none;
+  }
+  .showcase .container .card{
+    position: absolute;
+  }
+  /* footer */
+  /*#main-footer{
+    flex-direction: column;
+    float: left;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  /* Login */
+  /*.login .bd{
+    display: none;
+    max-width: 300px;
+  } */
+   /* Mobile Styles */
+
+   * {
+    scroll-padding-top: 1rem;
+  }
+
+  body {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
+
+  #navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  #navbar ul li{
+      margin-top: 25px;
+  }
+
+  #navbar ul li a {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .show-case {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .show-case .container {
+    max-width: 90%;
+    max-height: auto;
+  }
+
+  .show-case .cards {
+    width: 100%;
+    height: auto;
+    perspective: 500px;
+  }
+
+  .show-case .cards label {
+    width: 100%;
+  }
+
+  .show-case .cards .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .show-case1 .container1 {
+    width: 100%;
+  }
+
+  .show-case1 .cards1 .card1 {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .show-case1 .cards1 .card1 img {
+    height: 200px;
+  }
+
+  .login-box {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .input-box {
+    width: 100%;
+  }
+
+  .register {
+    height: auto;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer-addres p,
+  #main-footer {
+    font-size: 0.9em;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer-addres p {
+    margin-top: 10px;
+  }
+
+  .container2 {
+    flex-direction: column;
+  }
+
+  #root {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  .sidebar {
+    margin: 10px 0;
+  }
+
+  .head {
+    font-size: 1rem;
+    padding-left: 15px;
+    height: auto;
+  }
+
+  .foot {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .foot > div {
+    margin-bottom: 10px;
+  }
